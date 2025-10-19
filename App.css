@@ -1,0 +1,66 @@
+/* Global styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f7f9fc;
+  color: #1a1a1a;
+}
+
+input, button {
+  font-family: inherit;
+}
+
+button {
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: none;
+  border-radius: 6px;
+}
+
+button:hover {
+  filter: brightness(0.9);
+}
+
+/* Scrollbar Styling (for modern browsers) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #07689f;
+  border-radius: 10px;
+  border: 2px solid #f1f1f1;
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #07689f;
+  font-weight: 700;
+}
+
+/* Link Styling */
+a {
+  color: #20b2aa;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Containers */
+.container {
+  max-width: 960px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+/* Utility Classes */
+.text-center {
+  text-align: center;
+}
