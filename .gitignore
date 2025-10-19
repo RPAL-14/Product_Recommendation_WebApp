@@ -25,3 +25,5 @@ build/
 # IDE files
 .vscode/
 .idea/
+venv*/
+__pycache__/
